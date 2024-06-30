@@ -1,5 +1,7 @@
+//buscamos dentro del documento el elemento que tiene el nombre de usuario
 let inp_nombre_usuario = document.getElementById('nombre');
 
+//agrega el evento "cambio" al elemento y ejecuta la funcion verificar
 inp_nombre_usuario.addEventListener("change", verificarNombreUsuario);
 
 function verificarNombreUsuario() {
