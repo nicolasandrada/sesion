@@ -14,6 +14,6 @@ if (!isset( $_SESSION['usuario'] )){
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola bienvenido </h1>
+    <h1>Hola bienvenido , Esto solo lo vas a ver si estas logeado</h1>
 </body>
 </html>
